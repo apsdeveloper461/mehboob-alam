@@ -1,0 +1,50 @@
+
+.service-card-contanier{
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+  min-width: 200px;
+  height: auto;
+  margin: auto;
+  border-radius: .5rem;
+
+}
+
+.service-card {
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* aspect-ratio: 16/4; */
+    border-radius: .5rem .5rem 0 0 ;
+
+    margin: auto;
+    /* height: 96%; */
+    height: 200px;
+    padding: 30px 15px 15px 25px;
+    /* position: relative; */
+  
+    width: 100%;
+ 
+    color: #fff;
+    transition: transform 0.1s ease;
+    transform-style: preserve-3d;
+    will-change: transform;
+  }
+  
+  .service-card::before {
+    content: ""; 
+    background: rgba(0, 0, 0, 0.25);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: .5rem;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+  .service-card-list li{
+    color: var(--text-000);
+    list-style: circle;
+list-style-type: disc;
+  }

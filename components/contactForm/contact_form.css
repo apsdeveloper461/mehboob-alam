@@ -1,0 +1,78 @@
+    /* ------------------ Contact div ----------------- */
+
+
+    .ContactForm{
+        position: relative;
+        width: 95%;
+        /* background: white; */
+        margin: 2rem auto;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .ContactForm::after{
+        content: '';
+        position: absolute;
+        width: 10rem;
+        height: 10rem;
+        bottom: .1rem;
+        right: 0;
+        opacity: .5;
+        background: var(--accent-300);
+        /* z-index: -1; */
+        filter: blur(100px);
+    }
+    .ContactForm .row{
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: .5rem 0px ;
+    }
+    .row input,.row textarea{
+        font-weight:500;
+        color: grey;
+        outline: none;
+        border: none;
+        font-size: 16px;
+        background: transparent;
+        border: 2px solid var(--accent-300);
+        padding: .5rem 1.3rem;
+
+    }
+    .row input:focus,.row textarea:focus{
+        border-color: var(--primary-200);
+        /* background-color: var(--background-300); */
+    }
+    .row input{
+        position: relative;
+        width: 45%;
+    }
+    .row textarea{
+        width: 93%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        letter-spacing: .061rem;
+        font-size: 17px;
+    }
+.row button{
+
+    box-shadow: 2px 3px 10px var(--background-200);
+ 
+}
+.row button:hover{
+      transition: all 1s .1s ease-in;
+}
+    @media only screen and (max-width:500px){
+        .row{
+            flex-direction: column;
+            flex-wrap: wrap;
+        
+            /* margin: 0 0; */
+        }
+        .row input,.row textarea{
+            width: 93%;
+            margin: .7rem auto;
+        }
+       
+    }
+

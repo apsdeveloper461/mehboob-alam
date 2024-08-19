@@ -1,0 +1,75 @@
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+.social-links {
+    display: flex;
+    position: relative;
+   
+    width: 100%;
+      justify-content: center;
+      margin: 5rem auto;
+  }
+  
+  .social-btn {
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    font-family: 'Titillium Web', sans-serif;
+    color: var(--accent-300);
+    font-family:fantasy;
+    border-radius: 10px;
+    border-radius: 1rem;
+    box-shadow: 0px 10px 10px var(--background-200);
+    border: 1px solid var(--background-300);
+    background: var(--text-000);
+    margin: 5px;
+    transition: .5s;
+  }
+  .social-btn:hover {
+    background: var(--accent-000);
+    opacity: .7;
+    /* border-radius: 20px; */
+    transform: translateY(-1rem);
+    transition: transform 1s;
+  }
+  
+  
+  .social-btn a {
+  
+      text-decoration: none;
+    width: 0px;
+    overflow: hidden;
+    /* transition: 1s; */
+    text-align: center;
+  }
+  
+  .social-btn:hover {
+    width: 150px;
+  }
+  
+  .social-btn:hover a {
+    padding: 2px;
+    color: var(--text-100);
+    width: max-content;
+  }
+  
+  #twitter svg {
+    fill: #1da1f2;
+  }
+  
+  #linkedin svg {
+    fill: #0e76a8;
+  }
+  
+  #github {
+    fill: #333;
+  }
+  /* Run Pen
+  
+  
+  Resources1× 0.5× 0.25×Rerun */

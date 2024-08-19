@@ -1,0 +1,130 @@
+.contianer {
+    /* position: absolute;
+    top: 70px; */
+    /* z-index: 1; */
+    position: relative;
+    width: 100%;
+    margin-right: 3%;
+    max-width: 100vw;
+    color: var(--text-300);
+    font-family: "Poppins", sans-serif;
+/* display: flex;
+flex-direction:row-reverse; */
+
+
+}
+/* .leftContainer{
+    z-index: -1;
+} */
+
+.leftContainer .h2 {
+    margin-top: 5px;
+    font-family: serif;
+   
+
+}
+
+
+.leftContainer .p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    /* font-size: 1.1rem; */
+    /* transform: translatex(30px); */
+    /* transition: all 1s 1s ease-in-out; */
+}
+
+.leftContainer .h2::before {
+    position: absolute;
+    content: '';
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(var(--text-300), var(--primary-300));
+    opacity: .4;
+    border-radius: 50%;
+    /* z-index: -1; */
+    transform: translate(-10px, -100px);
+    filter: blur(205px);
+}
+
+.ContactButton {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 10px;
+}
+
+.ContactBtn {
+    margin: auto;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: var(--accent-100);
+    border: 2px solid var(--accent-300);
+    text-align: center;
+    position: relative;
+
+
+}
+
+.ContactBtn:hover {
+    background-color: var(--accent-100);
+    color: white;
+    opacity: .8;
+
+    transition: all 1s .1s ease-in-out;
+}
+
+
+
+.rightContainer {
+    position: relative;
+    /* width: 15rem;
+    min-width: 15rem;
+    height: 15rem;
+    min-height: 15rem; */
+    /* background-color: black; */
+    transform: translate(-0px, 50px);
+    /* z-index: -1; */
+    /* opacity: 0.8; */
+}
+
+
+.right_img {
+    border: 2px dotted var(--accent-100);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    /* mix-blend-mode:lighten; */
+
+
+}
+
+.rightContainer::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -0%;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background: var(--accent-100);
+   
+    border-radius: 50%;
+    /* z-index: -1; */
+    opacity: .4;
+    /* transform: translate(0px, 100px); */
+    filter: blur(70px);
+}
+
+.cont {
+    color: var(--accent-300);
+    opacity: .7;
+    line-height: 0%;
+    font-size: 18px;
+    font-family: fantasy;
+}

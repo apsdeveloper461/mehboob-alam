@@ -1,0 +1,127 @@
+
+
+.card_container,.inner  {
+
+  border-radius: var(--border-radius);
+  
+}
+
+.example-3 {
+  position: relative;
+  border-radius: var(--border-radius);
+  height: 250px;
+  padding: 4px;
+  width: 100%;
+  max-width: 500px;
+  min-width: 300px;
+ aspect-ratio: 16/4;
+  
+}
+
+.example-3 .inner {
+  border-radius: 4px;
+}
+
+.example-3::before,
+.example-3::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(
+    45deg,
+    #ff595fb0,
+    #ffca3ac0,
+    #ff6600d2,
+    #1983c4c2,
+    #694c93ba,
+    #ff6600d2
+  );
+  opacity: .8;
+  background-size: 400%;
+  z-index: -1;
+  animation: glow 10s linear infinite;
+  width: 100%;
+  border-radius: var(--border-radius);
+}
+
+.example-3::after {
+  filter: blur(20px);
+  transform: translate3d(0, 0, 0);
+}
+
+@keyframes glow {
+  0% {
+    background-position: 0 0;
+  }
+
+  25% {
+    background-position: 100% 0;
+  }
+  50% {
+    background-position: 0 0;
+  }
+  75% {
+    background-position: 100% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+
+  
+  .card {
+    background-repeat: no-repeat;
+    background-size: cover;
+    aspect-ratio: 16/4;
+    border-radius: var(--border-radius) ;
+
+    margin: auto;
+    /* height: 96%; */
+    padding: 30px 15px 15px 25px;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    /* margin: 5px; */
+    /* height: 98%; */
+    color: #fff;
+    transition: transform 0.1s ease;
+    transform-style: preserve-3d;
+    will-change: transform;
+  }
+  
+  .card::before {
+    content: ""; 
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: var(--border-radius);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+  /* Slight parallax effect on hover */
+  .card:hover .content {
+    transform: translateZ(12px);
+  }
+  
+  .content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: transform 0.3s ease;
+  }
+
