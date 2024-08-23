@@ -70,7 +70,7 @@ const ContactForm = () => {
     return (
         <section id='contact'>
             <form onSubmit={handleContactForm} id="Contact_form" className="ContactForm">
-                <div className="row"><h2 className='project_h2 text-4xl text-center text-custom-accent-200 ' style={{ fontFamily: 'fantasy' }}>Contact Me</h2></div>
+                <div className="row"><h2 className='project_h2 text-4xl text-center text-custom-accent-200 ' style={{ fontFamily: 'fantasy' }}>Get In Touch</h2></div>
                 <div className="row">
                     <input className="rowElment rounded-full" onChange={changeInputField} type="text" name="f_name" id="f_name" placeholder='Enter first name ...' required />
                     <input className="rowElment rounded-full" onChange={changeInputField} type="text" name="l_name" id="l_name" placeholder='Enter last name ...' required />

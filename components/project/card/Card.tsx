@@ -1,5 +1,6 @@
 "use client";
 import React, { useRef, useEffect } from 'react';
+import Link from 'next/link';
 import './card.css'
 
 const THRESHOLD = -5;
@@ -56,7 +57,7 @@ const Card = ({ Id, ImgURL, Heading, Description, ButtonContent }: { Id: string,
           <div className="content p-0 ">
             <h2 className='text-2xl  text-custom-accent-200' style={{ fontFamily: 'fantasy' }}>{Heading}</h2>
             <p >{Description}</p>
-            <button className=' px-3 py-1 text-lg  border-gray-300 opacity-80  border-2 rounded-lg font-semibold hover:bg-transparent hover:opacity-100 hover:border-custom-accent-100 hover:text-custom-accent-100 bg-custom-accent-100 text-custom-text-200 mt-2 ' type="button">{ButtonContent} &rarr; </button>
+            <Link href={`./project/${Id}`} className=' px-3 py-1 text-lg  border-gray-300 opacity-80  border-2 rounded-lg font-semibold hover:bg-transparent hover:opacity-100 hover:border-custom-accent-100 hover:text-custom-accent-100 bg-custom-accent-100 text-custom-text-200 mt-2 '>{ButtonContent} &rarr; </Link>
           </div>
         </div>
       </div >
