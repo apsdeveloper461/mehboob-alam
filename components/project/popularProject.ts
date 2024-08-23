@@ -20,23 +20,44 @@ export const popularProject: Projects[] = [
       'https://img.freepik.com/free-vector/gradient-ui-ux-landing-page-template_23-2149053664.jpg?size=626&ext=jpg&ga=GA1.1.2082370165.1716422400&semt=ais_user',
     title: 'Contact Api Backend App',
     github: 'https://github.com/apsdeveloper461/Contact_Api-with-ExpressJs-and-MongoDb-.git',
-    technolgies: " NODE JS || EXPRESS JS || MONGO DB || GIT || GITHUB ||API ",
-    descrition: "This project builds a robust backend API specifically designed to manage contact information. It leverages the powerful combination of Node.js for server-side execution, Express for handling HTTP requests and responses, and MongoDB for storing and retrieving contact data in a flexible and scalable NoSQL database.",
+    technolgies: " REACTJS || JAVASCRIPT || CSS || JSX || STATE || GIT || GITHUB ||API ",
+    descrition: "Welcome to apsCodesNotes, your ultimate resource for handwritten notes, roadmaps, and cheat sheets! Our platform is dedicated to providing high-quality, visually appealing study materials to help you learn and retain information effectively. Whether you're a student, developer, or simply a curious learner, our notes and resources are designed to support your journey.",
     OtherData: [{
-      subtitle: '',
+      subtitle: '1. Featured Notes:',
       subdescription: [
-        '➢ Node.js:  Acts as the core foundation for your project. It provides an event-driven, non-blocking I/O model, making it efficient in handling multiple concurrent requests. Node.js allows you to write server-side logic in JavaScript, simplifying development and maintenance.',
-        '➢ Express:  Built on top of Node.js, Express is a popular web application framework. It provides a streamlined and organized way to handle incoming HTTP requests (GET, POST, PUT, DELETE) and generate the corresponding responses.',
-        '➢ MongoDB:  Serves as your primary data storage solution. As a NoSQL database, MongoDB offers a document-oriented approach, allowing you to store contact information in a flexible schema, where each document can have different fields or structures. This flexibility is ideal for managing various contact details like name, email, phone number, and even additional custom fields. ',
-        '➢ API Endpoints:  Your API will expose well-defined endpoints that act as interaction points for client applications (web or mobile) to access and manipulate contact data.'
+        'Showcase a selection of popular or recently added notes.',
+        'Include a brief summary, tags, and a preview image.',
+        'Link to the full note or download option.'
       ]
     },
     {
-      subtitle: 'Benefit:',
+      subtitle: '2. Note Categories:',
       subdescription: [
-        '➢ Scalability: Node.js and MongoDB excel at handling large amounts of data and concurrent requests, making your API scalable for future growth.',
-        '➢ Flexibility: The NoSQL nature of MongoDB allows easy adaptation to changes in your contact data structure without schema modifications.',
-        '➢ Efficiency: Express simplifies API development and promotes fast response times.>>  RESTful Design: By adhering to RESTful principles, your API provides a well-defined interface for client applications to interact with.'
+        'Organize notes by programming languages, frameworks, or topics.',
+        'Display a list or grid of notes with summaries and tags.',
+        'Allow filtering or sorting by relevance, date, or popularity.'
+      ]
+    },
+    {
+      subtitle: '3. Roadmap Collections',
+      subdescription: [
+        'Showcase curated collections of notes and resources for specific topics or skills.',
+        'Include a brief introduction, list of included notes, and a download option.'
+      ]
+    },
+    {
+      subtitle: '4. Cheat Sheet Library:',
+      subdescription: [
+        'Display a collection of concise, printable cheat sheets.',
+        'Organize by topic or category, with tags and summaries.',
+        'Allow users to download or print individual sheets.'
+      ]
+    },
+    {
+      subtitle: '6. Search and Filter:',
+      subdescription: [
+        'Allow users to find specific notes or resources quickly.',
+        'Implement a robust search bar with filtering options (by name, categories, tages).'
       ]
     }],
     slideImages: []
@@ -141,10 +162,44 @@ export const popularProject: Projects[] = [
     title: 'Chat App with MERN Stack',
     github: 'https://github.com/apsdeveloper461/text_manipulator.git',
     technolgies: " MERN STACK || HTML || CSS || JS || REACTJS || NODDEJS || EXPRESSJS || SOCKET || MONGODB",
-    descrition: `Want to transform your text with ease? Our interactive text manipulator empowers you to take control! From converting to uppercase or lowercase to removing pesky extra spaces, our user-friendly website simplifies your text editing needs. Explore real-world use cases, conquer challenges, and share your creativity with the world. Let our text manipulator become your secret weapon for crafting impactful and polished content!  Tired of fixing typos or counting words? Our website makes changing your text easy! Make it all CAPS or lowercase, get rid of extra spaces, and even see how many words and letters you have. It's fun too! Play games with your text and share your creations. Make cool social media posts and write better with our tips. Come play with your words and see what you can do!`,
+    descrition: `Welcome to Aps Chat App, a fast and secure messaging platform built with the MERN stack. Our app allows users to communicate in real-time, with features like instant messaging, chat rooms, and file sharing. With a strong focus on security and scalability, our app is perfect for teams, communities, and individuals looking for a reliable chat solution.
+`,
     OtherData: [{
-      subtitle: "",
-      subdescription: []
+     subtitle:'Benefits:',
+     subdescription:[
+      ' Real-time messaging with instant delivery and read receipts',
+      'Fast and reliable messaging for seamless communication',
+      'Secure data storage and transmission for peace of mind',
+      'User-friendly interface for easy navigation and use'
+     ]
+    },{
+      subtitle: 'Real-time Messaging',
+      subdescription: [
+        'Instant messaging for seamless communication',
+        'Support for text, images, and files',
+        'Automatic message delivery and read receipts'
+      ]
+    }, {
+      subtitle: 'User Authentication',
+      subdescription: [
+        'Secure user registration and login',
+        'Password hashing and salting for added security',
+        'User profile management and editing'
+      ]
+    }, {
+      subtitle: 'Notifications and Alerts',
+      subdescription: [
+        'Real-time notifications for new messages',
+        'Customizable notification settings',
+        'Support for desktop and mobile notifications'
+      ]
+    }, {
+      subtitle: 'Security and Scalability',
+      subdescription: [
+        'Built with MERN stack for scalability',
+        'Secure data storage and transmission',
+        'Regular updates and maintenance'
+      ]
     }],
     slideImages: []
   },
