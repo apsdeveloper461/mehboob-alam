@@ -23,8 +23,7 @@ export const serviceCards: SERVICE_CARD[] = [
       'Customized business application solutions',
       'Expertise in business process automation',
       'Integration with existing systems and tools',
-      'Enhanced productivity and efficiency',
-      'Ongoing support and maintenance',
+      'Enhanced productivity and efficiency'
     ],
     button: 'Hire Expert',
   },
