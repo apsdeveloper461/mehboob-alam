@@ -18,46 +18,46 @@ export const popularProject: Projects[] = [
     id: 1,
     url:
       'https://img.freepik.com/free-vector/gradient-ui-ux-landing-page-template_23-2149053664.jpg?size=626&ext=jpg&ga=GA1.1.2082370165.1716422400&semt=ais_user',
-    title: 'Contact Api Backend App',
+    title: 'ApsCodesNotes App',
     github: 'https://github.com/apsdeveloper461/Contact_Api-with-ExpressJs-and-MongoDb-.git',
     technolgies: " REACTJS || JAVASCRIPT || CSS || JSX || STATE || GIT || GITHUB ||API ",
     descrition: "Welcome to apsCodesNotes, your ultimate resource for handwritten notes, roadmaps, and cheat sheets! Our platform is dedicated to providing high-quality, visually appealing study materials to help you learn and retain information effectively. Whether you're a student, developer, or simply a curious learner, our notes and resources are designed to support your journey.",
     OtherData: [{
       subtitle: '1. Featured Notes:',
       subdescription: [
-        'Showcase a selection of popular or recently added notes.',
-        'Include a brief summary, tags, and a preview image.',
-        'Link to the full note or download option.'
+        '➢ Showcase a selection of popular or recently added notes.',
+        '➢ Include a brief summary, tags, and a preview image.',
+        '➢ Link to the full note or download option.'
       ]
     },
     {
       subtitle: '2. Note Categories:',
       subdescription: [
-        'Organize notes by programming languages, frameworks, or topics.',
-        'Display a list or grid of notes with summaries and tags.',
-        'Allow filtering or sorting by relevance, date, or popularity.'
+        '➢ Organize notes by programming languages, frameworks, or topics.',
+        '➢ Display a list or grid of notes with summaries and tags.',
+        '➢ Allow filtering or sorting by relevance, date, or popularity.'
       ]
     },
     {
       subtitle: '3. Roadmap Collections',
       subdescription: [
-        'Showcase curated collections of notes and resources for specific topics or skills.',
-        'Include a brief introduction, list of included notes, and a download option.'
+        '➢ Showcase curated collections of notes and resources for specific topics or skills.',
+        '➢ Include a brief introduction, list of included notes, and a download option.'
       ]
     },
     {
       subtitle: '4. Cheat Sheet Library:',
       subdescription: [
-        'Display a collection of concise, printable cheat sheets.',
-        'Organize by topic or category, with tags and summaries.',
-        'Allow users to download or print individual sheets.'
+        '➢ Display a collection of concise, printable cheat sheets.',
+        '➢ Organize by topic or category, with tags and summaries.',
+        '➢ Allow users to download or print individual sheets.'
       ]
     },
     {
       subtitle: '6. Search and Filter:',
       subdescription: [
-        'Allow users to find specific notes or resources quickly.',
-        'Implement a robust search bar with filtering options (by name, categories, tages).'
+        '➢ Allow users to find specific notes or resources quickly.',
+        '➢ Implement a robust search bar with filtering options (by name, categories, tages).'
       ]
     }],
     slideImages: []
@@ -167,38 +167,38 @@ export const popularProject: Projects[] = [
     OtherData: [{
      subtitle:'Benefits:',
      subdescription:[
-      ' Real-time messaging with instant delivery and read receipts',
-      'Fast and reliable messaging for seamless communication',
-      'Secure data storage and transmission for peace of mind',
-      'User-friendly interface for easy navigation and use'
+      '➢ Real-time messaging with instant delivery and read receipts',
+      '➢ Fast and reliable messaging for seamless communication',
+      '➢ Secure data storage and transmission for peace of mind',
+      '➢ User-friendly interface for easy navigation and use'
      ]
     },{
-      subtitle: 'Real-time Messaging',
+      subtitle: '1. Real-time Messaging',
       subdescription: [
-        'Instant messaging for seamless communication',
-        'Support for text, images, and files',
-        'Automatic message delivery and read receipts'
+        '➢ Instant messaging for seamless communication',
+        '➢ Support for text, images, and files',
+        '➢ Automatic message delivery and read receipts'
       ]
     }, {
-      subtitle: 'User Authentication',
+      subtitle: '2. User Authentication',
       subdescription: [
-        'Secure user registration and login',
-        'Password hashing and salting for added security',
-        'User profile management and editing'
+        '➢ Secure user registration and login',
+        '➢ Password hashing and salting for added security',
+        '➢ User profile management and editing'
       ]
     }, {
-      subtitle: 'Notifications and Alerts',
+      subtitle: '3. Notifications and Alerts',
       subdescription: [
-        'Real-time notifications for new messages',
-        'Customizable notification settings',
-        'Support for desktop and mobile notifications'
+        '➢ Real-time notifications for new messages',
+        '➢ Customizable notification settings',
+        '➢ Support for desktop and mobile notifications'
       ]
     }, {
-      subtitle: 'Security and Scalability',
+      subtitle: '4. Security and Scalability',
       subdescription: [
-        'Built with MERN stack for scalability',
-        'Secure data storage and transmission',
-        'Regular updates and maintenance'
+        '➢ Built with MERN stack for scalability',
+        '➢ Secure data storage and transmission',
+        '➢ Regular updates and maintenance'
       ]
     }],
     slideImages: []

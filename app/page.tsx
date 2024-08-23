@@ -1,5 +1,6 @@
 
 
+"use client";
 import Head from "next/head";
 import Homeanimation from '@/components/Animation/Homeanimation';
 import Landing from '@/components/landing/Landing';
