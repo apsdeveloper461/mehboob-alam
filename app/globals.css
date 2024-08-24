@@ -32,11 +32,12 @@ scroll-behavior: smooth;
 }
  /* all css for scroll bar  */
  ::-webkit-scrollbar{
-  width: 4px;
+  width: 2px;
   background-color: rgba(102, 102, 102, 0.979);
 }
 ::-webkit-scrollbar-thumb{
-  background:linear-gradient(70deg, #640740 0%,rgba(63, 12, 146, 0.575) 100%);
+  background:var(--text-300);
+  opacity: .7;
   
  }
  ::-webkit-scrollbar-track{
@@ -183,9 +184,9 @@ li a:hover::before {
   height:10rem;
   top: -5rem;
   left: 2rem;
-  background:var(--primary-200);
+  background:var(--text-300);
   z-index: 0;
-  opacity: .5;
+  opacity: .4;
   filter: blur(120px);
   
 }
@@ -196,9 +197,9 @@ li a:hover::before {
   height:10rem;
   top: -5rem;
   right: 2rem;
-  background:var(--primary-200);
+  background:var(--primary-300);
   z-index: 0;
-  opacity: .5;
+  opacity: .4;
   filter: blur(120px);
   
 }

@@ -17,7 +17,7 @@ export const popularProject: Projects[] = [
   {
     id: 1,
     url:
-      'https://img.freepik.com/free-vector/gradient-ui-ux-landing-page-template_23-2149053664.jpg?size=626&ext=jpg&ga=GA1.1.2082370165.1716422400&semt=ais_user',
+      './projects/apscodenotes.png',
     title: 'ApsCodesNotes App',
     github: 'https://github.com/apsdeveloper461/Contact_Api-with-ExpressJs-and-MongoDb-.git',
     technolgies: " REACTJS || JAVASCRIPT || CSS || JSX || STATE || GIT || GITHUB ||API ",
