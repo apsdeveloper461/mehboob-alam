@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
 import Button from './Button'
+import { motion } from 'framer-motion';
 
 const Navbar = () => {
 
@@ -46,7 +47,7 @@ const Navbar = () => {
 
 
     return (
-        <div>
+        <>
 
             {/* navbar for destop and laptops */}
             <div className='hidden md:flex  items-center justify-between  h-20 px-8 lg:px-16'>
@@ -82,11 +83,9 @@ const Navbar = () => {
                         }} className="dropbtn w-6 h-6 m-2">
                         </button>
                     </div>
-                   
                 </div>
-
             </div>
-            <div id="myDropdown" className=" dropdown-content md:hidden" >
+            <motion.div initial={{ opacity:0 }} whileInView={{ opacity: 1, y: [-100, 0] }} transition={{ duration: 1 }} id="myDropdown" className=" dropdown-content md:hidden -z-10" >
                     <Link href='#about'>About Us</Link>
                     <Link href='#project'>Projects</Link>
                     <Link href='#services'>Services</Link>
@@ -94,9 +93,9 @@ const Navbar = () => {
                     <div className='dropdown-item mx-auto py-2'>
                     <Button  buttonContent='Hire me' styles='hiremebtn' />
                     </div>
-                    </div>
+                    </motion.div>
 
-        </div>
+        </>
     )
 }
 

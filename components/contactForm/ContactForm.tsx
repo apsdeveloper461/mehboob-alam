@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import './contact_form.css'
 import ContactBar from '../contactBar/ContactBar';
 import emailjs from '@emailjs/browser'
+import {motion} from 'framer-motion'
 
 const ContactForm = () => {
     interface Form {
@@ -70,7 +71,7 @@ const ContactForm = () => {
     }
     return (
         <section id='contact'>
-            <form onSubmit={handleContactForm} id="Contact_form" className="ContactForm">
+            <motion.form initial={{opacity:.6}} whileInView={{opacity:1, y:[100,0]}} transition={{duration:1}} onSubmit={handleContactForm} id="Contact_form" className="ContactForm">
                 <div className="row"><h2 className='project_h2 text-4xl text-center text-custom-accent-200 ' style={{ fontFamily: 'fantasy' }}>Get In Touch</h2></div>
                 <div className="row">
                     <input className="rowElment rounded-full" onChange={changeInputField} type="text" name="f_name" id="f_name" placeholder='Enter first name ...' required />
@@ -86,7 +87,7 @@ const ContactForm = () => {
                 </div>
 
                 <div className="flex items-center justify-center w-screen"><button className='text-custom-text-100 font-semibold px-10 py-3 mt-5 w-1/8 rounded-full hover:bg-custom-primary-200 bg-custom-accent-200 border-2 ' id='Contact_form' type="submit">Send Email</button></div>
-            </form>
+            </motion.form>
             <ContactBar />
         </section>
 
