@@ -1,0 +1,32 @@
+.slide-container{
+  width: 62rem;
+  /* height: 400px; */
+  margin: 3rem auto;
+}
+.imges{
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  height: 35vw;
+  border-radius: 2vw;
+    
+
+}
+@media screen and (max-width: 1300px){
+  .slide-container{  
+  width: 90vw;
+  }
+  .imges{
+    height: 43vw;
+  }
+}
+@media screen and (max-width: 868px){
+  .slide-container{
+    width: 96vw;
+    margin: 2rem auto;
+    /* height: 500px; */
+  }
+  .imges{
+    height: 45vw;
+  }
+}

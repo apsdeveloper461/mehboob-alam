@@ -2,6 +2,7 @@
 import popularProject from '@/components/project/popularProject';
 import { useParams } from 'next/navigation';
 import Link from 'next/link';
+import Slideshow from '@/components/crousalslider/Slideshow';
 
 const Project = () => {
   const { projectid } = useParams();
@@ -15,6 +16,7 @@ const Project = () => {
         <Link href={'/'} className='text-3xl font-bold text-custom-text-300'>&#8592;</Link>
         <h1 className='text-custom-accent-100 text-lg font-semibold'>{PageData?.title}</h1>
       </div>
+      <Slideshow slideImages={PageData?.slideImages}/>
       <div className='mt-5 md:px-5 px-2'>
 
         <h2 className='text-custom-accent-100 text-xl font-semibold italic'>Technologies: </h2>

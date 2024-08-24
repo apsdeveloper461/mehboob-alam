@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import './contact_form.css'
 import ContactBar from '../contactBar/ContactBar';
+import emailjs from '@emailjs/browser'
 
 const ContactForm = () => {
     interface Form {
@@ -50,18 +51,18 @@ const ContactForm = () => {
             message: mes,
         };
 
-        // emailjs.send(
-        //     'service_9al02ii',
-        //     'template_puz0k3a',
-        //     templateParams,
-        //     'jCxc5DOvN54Au7Fzs'
-        // )
-        //     .then((response: any) => {
-        //         alert('Email sent successfully!');
-        //     })
-        //     .catch((error: any) => {
-        //         alert('Error sending email:' + error);
-        //     });
+        emailjs.send(
+            'service_9al02ii',
+            'template_puz0k3a',
+            templateParams,
+            'jCxc5DOvN54Au7Fzs'
+        )
+            .then((response: any) => {
+                alert('Email sent successfully!');
+            })
+            .catch((error: any) => {
+                alert('Error sending email:' + error);
+            });
 
 
 

@@ -8,7 +8,7 @@ export interface Projects {
   technolgies: string;
   descrition: string;
   OtherData: { subtitle: string, subdescription: string[] }[]
-  slideImages: { url: string }[];
+  slideImages:string [];
 
 }
 
@@ -17,7 +17,7 @@ export const popularProject: Projects[] = [
   {
     id: 1,
     url:
-      './projects/apscodenotes.png',
+      '/projects/apscodenotes.png',
     title: 'ApsCodesNotes App',
     github: 'https://github.com/apsdeveloper461/Contact_Api-with-ExpressJs-and-MongoDb-.git',
     technolgies: " REACTJS || JAVASCRIPT || CSS || JSX || STATE || GIT || GITHUB ||API ",
@@ -93,15 +93,15 @@ export const popularProject: Projects[] = [
     }
     ],
     slideImages: [
-      { url: 'https://i.ibb.co/BgKgPfV/1.jpg' },
-      { url: 'https://i.ibb.co/Xxp8FYB/2.jpg' },
-      { url: 'https://i.ibb.co/xJzpHjG/3.jpg' },
-      { url: 'https://i.ibb.co/TbcQmTV/4.jpg' },
-      { url: 'https://i.ibb.co/sy8DM7z/5.jpg' },
-      { url: 'https://i.ibb.co/8m4QcdF/6.jpg' },
-      { url: 'https://i.ibb.co/8m4QcdF/6.jpg' },
-      { url: 'https://i.ibb.co/GkCvnBy/8.jpg' },
-      { url: 'https://i.ibb.co/k4ZnpBJ/9.jpg' },
+      'https://i.ibb.co/BgKgPfV/1.jpg',
+    'https://i.ibb.co/Xxp8FYB/2.jpg' ,
+    'https://i.ibb.co/xJzpHjG/3.jpg' ,
+    'https://i.ibb.co/TbcQmTV/4.jpg' ,
+    'https://i.ibb.co/sy8DM7z/5.jpg' ,
+    'https://i.ibb.co/8m4QcdF/6.jpg' ,
+    'https://i.ibb.co/8m4QcdF/6.jpg' ,
+    'https://i.ibb.co/GkCvnBy/8.jpg' ,
+    'https://i.ibb.co/k4ZnpBJ/9.jpg' 
     ]
 
   },
@@ -132,26 +132,14 @@ export const popularProject: Projects[] = [
     }
     ],
     slideImages: [
-      {
-        url: 'https://i.ibb.co/G5NhM1v/login.jpg'
-      }, {
-        url: 'https://i.ibb.co/jyZRLQ4/signup.jpg'
-      }, {
-        url: 'https://i.ibb.co/fNF6ZSM/attendence.jpg'
-      }, {
-        url: 'https://i.ibb.co/6PjKsZq/courses.jpg'
-      }, {
-        url: 'https://i.ibb.co/QKQs1kD/current-Course.jpg'
-      }, {
-        url: 'https://i.ibb.co/MgKTVKw/fee.jpg'
-      }, {
-        url: 'https://i.ibb.co/FmJzYzM/grades.jpg'
-      }, {
-        url: 'https://i.ibb.co/zm7CM0k/home.jpg'
-      }, {
-        url: 'https://i.ibb.co/j8V77Jw/scholarship.jpg'
-      }
-
+    'https://i.ibb.co/G5NhM1v/login.jpg',
+    'https://i.ibb.co/jyZRLQ4/signup.jpg',
+    'https://i.ibb.co/fNF6ZSM/attendence.jpg',
+    'https://i.ibb.co/6PjKsZq/courses.jpg',
+    'https://i.ibb.co/QKQs1kD/current-Course.jpg',
+    'https://i.ibb.co/MgKTVKw/fee.jpg',
+    'https://i.ibb.co/zm7CM0k/home.jpg',
+    'https://i.ibb.co/j8V77Jw/scholarship.jpg'
     ]
 
   },
@@ -232,19 +220,19 @@ export const popularProject: Projects[] = [
       ]
     }],
     slideImages: [
-      { url: 'https://i.ibb.co/m071GNB/1.jpg' },
-      { url: 'https://i.ibb.co/xzmNsCw/2.jpg' },
-      { url: 'https://i.ibb.co/zH5PBVp/3.jpg' },
-      { url: 'https://i.ibb.co/k8qvnNh/4.jpg' },
-      { url: 'https://i.ibb.co/grwrPMy/5.jpg' },
-      { url: 'https://i.ibb.co/wryY6P5/6.jpg' },
-      { url: 'https://i.ibb.co/z6hMrS0/7.jpg' },
-      { url: 'https://i.ibb.co/Q9zf04S/8.jpg' },
-      { url: 'https://i.ibb.co/rMTcVxf/9.jpg' },
-      { url: 'https://i.ibb.co/hgQ3jNs/10.jpg' },
-      { url: 'https://i.ibb.co/17r9zRZ/11.jpg' },
-      { url: 'https://i.ibb.co/cNzYkpQ/12.jpg' },
-      { url: 'https://i.ibb.co/ng6n1g7/13.jpg' }
+    'https://i.ibb.co/m071GNB/1.jpg' ,
+    'https://i.ibb.co/xzmNsCw/2.jpg' ,
+    'https://i.ibb.co/zH5PBVp/3.jpg' ,
+    'https://i.ibb.co/k8qvnNh/4.jpg' ,
+    'https://i.ibb.co/grwrPMy/5.jpg' ,
+    'https://i.ibb.co/wryY6P5/6.jpg' ,
+    'https://i.ibb.co/z6hMrS0/7.jpg' ,
+    'https://i.ibb.co/Q9zf04S/8.jpg' ,
+    'https://i.ibb.co/rMTcVxf/9.jpg' ,
+    'https://i.ibb.co/hgQ3jNs/10.jpg' ,
+    'https://i.ibb.co/17r9zRZ/11.jpg' ,
+    'https://i.ibb.co/cNzYkpQ/12.jpg' ,
+    'https://i.ibb.co/ng6n1g7/13.jpg'
     ]
 
   },
@@ -265,21 +253,21 @@ export const popularProject: Projects[] = [
       ]
     }],
     slideImages: [
-      { url: 'https://i.ibb.co/rcnFFBB/1.png' },
-      { url: 'https://i.ibb.co/k6g97g3/2.png' },
-      { url: 'https://i.ibb.co/Z1J4Ncj/3.png' },
-      { url: 'https://i.ibb.co/VpbMcjj/4.png' },
-      { url: 'https://i.ibb.co/Wp8ryX7/5.png' },
-      { url: 'https://i.ibb.co/cwwdXJw/6.png' },
-      { url: 'https://i.ibb.co/w7dSpfG/7.png' },
-      { url: 'https://i.ibb.co/SJSTMfd/8.png' },
-      { url: 'https://i.ibb.co/8NsjrRT/9.png' },
-      { url: 'https://i.ibb.co/dcGNNHX/10.png' },
-      { url: 'https://i.ibb.co/nRCqPhs/11.png' },
-      { url: 'https://i.ibb.co/0YVT7yt/12.png' },
-      { url: 'https://i.ibb.co/QfsCF1K/13.png' },
-      { url: 'https://i.ibb.co/jDVRmcD/14.png' },
-      { url: 'https://i.ibb.co/ZGbg3MJ/15.png' }
+    'https://i.ibb.co/rcnFFBB/1.png' ,
+    'https://i.ibb.co/k6g97g3/2.png' ,
+    'https://i.ibb.co/Z1J4Ncj/3.png' ,
+    'https://i.ibb.co/VpbMcjj/4.png' ,
+    'https://i.ibb.co/Wp8ryX7/5.png' ,
+    'https://i.ibb.co/cwwdXJw/6.png' ,
+    'https://i.ibb.co/w7dSpfG/7.png' ,
+    'https://i.ibb.co/SJSTMfd/8.png' ,
+    'https://i.ibb.co/8NsjrRT/9.png' ,
+    'https://i.ibb.co/dcGNNHX/10.png' ,
+    'https://i.ibb.co/nRCqPhs/11.png' ,
+    'https://i.ibb.co/0YVT7yt/12.png' ,
+    'https://i.ibb.co/QfsCF1K/13.png' ,
+    'https://i.ibb.co/jDVRmcD/14.png' ,
+    'https://i.ibb.co/ZGbg3MJ/15.png'
     ]
   }
 ];
