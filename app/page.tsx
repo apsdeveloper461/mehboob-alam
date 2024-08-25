@@ -17,11 +17,7 @@ import HomeLayout from "@/components/HomeLayout";
 export default function Home() {
   return (
 
-    <>
       <HomeLayout>
-        <Head>
-          <link rel="icon" type="image/svg+xml" href={'./favicon.svg'} />
-        </Head>
         <Homeanimation />
         <Landing />
         <ContactBar />
@@ -33,12 +29,8 @@ export default function Home() {
         <Project />
         <hr className='w-3/4 m-auto' />
         <ContactForm />
-
-
       </HomeLayout>
-    </>
-
-
+    
 
   );
 }
