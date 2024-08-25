@@ -2,7 +2,7 @@
 import popularProject from '@/components/project/popularProject';
 import { useParams } from 'next/navigation';
 import Link from 'next/link';
-import Slideshow from '@/components/crousalslider/Slideshow';
+// import Slideshow from '@/components/crousalslider/Slideshow';
 import { motion } from 'framer-motion';
 
 const Project = () => {
@@ -17,7 +17,7 @@ const Project = () => {
         <Link href={'/'} className='text-3xl font-bold text-custom-text-300'>&#8592;</Link>
         <motion.h1 initial={{opacity:0}} whileInView={{opacity:1,x:[100,0]}} transition={{duration:1.5}} className='text-custom-accent-100 text-lg font-semibold'>{PageData?.title}</motion.h1>
       </div>
-      <Slideshow slideImages={PageData?.slideImages}/>
+      {/* <Slideshow slideImages={PageData?.slideImages}/> */}
       <div className='mt-5 md:px-5 px-2'>
 
         <motion.div initial={{ y: 0,opacity:.3 }} whileInView={{ y: [200, 0],opacity:1 }} transition={{duration:1.3}}>
