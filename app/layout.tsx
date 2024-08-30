@@ -3,7 +3,7 @@ import "./globals.css";
 import Footer from "@/components/Footer";
 
 
-export const metadata: Metadata = {
+export const metadata: Metadata = { 
   title: "Alam's Potfolio - By Mehboob Alam",
   description: "My name is Mehboob Alam. I am a Full Stack Developer(MERN) with 2 years of experience & studied at University of Engineering and Technology (UET) Lahore",
 };

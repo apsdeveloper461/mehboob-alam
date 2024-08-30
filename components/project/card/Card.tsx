@@ -53,7 +53,9 @@ const Card = ({ Id, ImgURL, Heading, Description, ButtonContent }: { Id: string,
     <>
 
       <div id={Id} className=" cursor-pointer card_container m-auto example-3 ">
-        <div className="card h-48 border border-slate-500" ref={cardRef} style={{ background: `url(${ImgURL})`, backgroundSize: 'cover' }}>
+        <div className="card h-48 border border-slate-500" ref={cardRef} style={{ 
+          background: `url(${ImgURL})`, 
+          backgroundSize: 'cover' }}>
           <div className="content p-0 ">
             <h2 className='text-2xl  text-custom-accent-200' style={{ fontFamily: 'fantasy' }}>{Heading}</h2>
             <p >{Description}</p>

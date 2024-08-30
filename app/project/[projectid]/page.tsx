@@ -2,8 +2,9 @@
 import popularProject from '@/components/project/popularProject';
 import { useParams } from 'next/navigation';
 import Link from 'next/link';
-// import Slideshow from '@/components/crousalslider/Slideshow';
+import Slideshow from '@/components/crousalslider/Slideshow';
 import { motion } from 'framer-motion';
+
 
 const Project = () => {
   const { projectid } = useParams();
@@ -17,12 +18,17 @@ const Project = () => {
         <Link href={'/'} className='text-3xl font-bold text-custom-text-300'>&#8592;</Link>
         <motion.h1 initial={{opacity:0}} whileInView={{opacity:1,x:[100,0]}} transition={{duration:1.5}} className='text-custom-accent-100 text-lg font-semibold'>{PageData?.title}</motion.h1>
       </div>
-      {/* <Slideshow slideImages={PageData?.slideImages}/> */}
+      <Slideshow slideImages={PageData?.slideImages}/>
       <div className='mt-5 md:px-5 px-2'>
 
         <motion.div initial={{ y: 0,opacity:.3 }} whileInView={{ y: [200, 0],opacity:1 }} transition={{duration:1.3}}>
         <h2 className='text-custom-accent-100 text-xl font-semibold italic'>Technologies: </h2>
         <p className='text-custom-primary-300 my-3  md:text-md font-semibold italic text-center'>{PageData?.technolgies}</p>
+        {PageData?.videoLink && 
+           <video  className='w-5/6 md:w-4/6 aspect-video m-auto my-5' controls  preload="none">
+           <source src={PageData?.videoLink} type="video/mp4" />
+          
+         </video>}
         <h2 className='text-custom-accent-100 text-xl font-semibold italic'>Description: </h2>
         <p className='text-custom-text-300  italic text-justify pl-3 mt-2'>{PageData?.descrition}</p>
         </motion.div>
