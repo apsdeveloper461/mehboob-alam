@@ -64,10 +64,6 @@ const ContactForm = () => {
             .catch((error: any) => {
                 alert('Error sending email:' + error);
             });
-
-
-
-
     }
     return (
         <section id='contact'>
