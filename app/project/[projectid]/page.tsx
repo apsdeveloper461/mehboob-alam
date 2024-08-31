@@ -25,9 +25,8 @@ const Project = () => {
         <h2 className='text-custom-accent-100 text-xl font-semibold italic'>Technologies: </h2>
         <p className='text-custom-primary-300 my-3  md:text-md font-semibold italic text-center'>{PageData?.technolgies}</p>
         {PageData?.videoLink && 
-           <video  className='w-5/6 md:w-4/6 aspect-video m-auto my-5' controls  preload="none">
-           <source src={PageData?.videoLink} type="video/mp4" />
-         </video>}
+           < iframe   src={PageData.videoLink}  className='w-5/6 md:w-4/6 aspect-video m-auto my-5' />
+}
         <h2 className='text-custom-accent-100 text-xl font-semibold italic'>Description: </h2>
         <p className='text-custom-text-300  italic text-justify pl-3 mt-2'>{PageData?.descrition}</p>
         </motion.div>

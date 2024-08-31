@@ -15,6 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <>
+    <head><link rel="icon" href="/favicon.ico" sizes="any" /></head>
     <html lang="en">
 
     <body className="bg-blur bg-custom-background-200  w-screen h-full">

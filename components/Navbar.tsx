@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
-import Button from './Button'
 import { motion } from 'framer-motion';
 
 const Navbar = () => {
@@ -66,7 +65,8 @@ const Navbar = () => {
                         <Link href='#contact'>Contact Us</Link>
                     </li>
                     <li>
-                        <Button buttonContent='Hire me' styles='hiremebtn' />
+                        <a href="mailto:mehboobalam786461@gmail.com" target='_blank'  style={{borderWidth:'1.7px '}} className= 'hiremebtn  rounded-full font-semibold' >Hire Me</a>
+                    
                     </li>
                 </ul>
 
@@ -91,7 +91,8 @@ const Navbar = () => {
                     <Link href='#services'>Services</Link>
                     <Link href='#contact'>Contact Us</Link>
                     <div className='dropdown-item mx-auto py-2'>
-                    <Button  buttonContent='Hire me' styles='hiremebtn' />
+                    <a href="mailto:mehboobalam786461@gmail.com" target='_blank'  style={{borderWidth:'1.7px '}} className= 'hiremebtn  rounded-full font-semibold' >Hire Me</a>
+                    
                     </div>
                     </motion.div>
 

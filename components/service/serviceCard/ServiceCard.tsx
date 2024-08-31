@@ -24,7 +24,7 @@ const ServiceCard = ({serviceCardData}:{serviceCardData:SERVICE_CARD}) => {
                     }
                 </ul>
 
-               <div className="flex items-center justify-center"> <button className='relative  px-4 mx-auto py-1 text-md   opacity-90  border-2 rounded-full font-semibold bg-transparent hover:opacity-100 border-custom-accent-100 text-custom-accent-100 hover:bg-custom-accent-100 hover:text-custom-text-200 mt-4 ' type="button">{serviceCardData.button} &rarr; </button>
+               <div className="flex items-center justify-center"> <a target='_blank' href="mailto:mehboobalam786461@gmail.com" className='relative  px-4 mx-auto py-1 text-md   opacity-90  border-2 rounded-full font-semibold bg-transparent hover:opacity-100 border-custom-accent-100 text-custom-accent-100 hover:bg-custom-accent-100 hover:text-custom-text-200 mt-4 ' >{serviceCardData.button} &rarr; </a>
                </div>
             </div>
         </motion.div>
