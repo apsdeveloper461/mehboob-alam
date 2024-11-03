@@ -47,8 +47,8 @@ const ContactForm = () => {
         console.log(mes);
 
         const templateParams = {
-            name: name,
-            email: email,
+            from_name: name,
+            to_name: "Mehboob Alam",
             message: mes,
         };
 
@@ -57,12 +57,12 @@ const ContactForm = () => {
             'template_puz0k3a',
             templateParams,
             'jCxc5DOvN54Au7Fzs'
-        )
-            .then((response: any) => {
+        ).then((response: any) => {
                 alert('Email sent successfully!');
-            })
-            .catch((error: any) => {
+            console.log("response",response);
+            }).catch((error: any) => {
                 alert('Error sending email:' + error);
+                console.log(error?.message,error);
             });
     }
     return (
